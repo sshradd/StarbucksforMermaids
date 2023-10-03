@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StarbucksForMermaids" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:headerBackground">@color/brown</item>
+        <item name="backgroundColor">@color/cream</item>
+        <item name="buttonIcon">@color/green</item>
+
+    </style>
+
+    <style name="Theme.StarbucksForMermaids" parent="Base.Theme.StarbucksForMermaids" />
+
+    <style name="Button.Green" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/green</item>
+    </style>
+</resources>
